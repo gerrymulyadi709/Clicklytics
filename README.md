@@ -9,7 +9,7 @@ Clicklytics is a simple web application built on the Internet Computer (ICP) eco
 1. Clone the repository:
 
  ```
-git clone https://github.com/yourusername/clicklytics.git
+git clone https://github.com/gerrymulyadi709/Clicklytics.git
 cd clicklytics
 ```
 
