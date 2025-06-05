@@ -1,0 +1,82 @@
+/* Warna natural, soft dan nyaman dilihat */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #fdf6e3;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 600px;
+  width: 100%;
+  background: #fff;
+  padding: 24px 32px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #2e4a62;
+  margin-bottom: 24px;
+}
+
+.buttons-grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.button-item {
+  flex: 1 1 30%;
+  background: #82c0cc;
+  color: #fff;
+  border: none;
+  padding: 16px 0;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  box-shadow: 0 3px 8px rgba(130,192,204,0.6);
+  transition: background 0.3s ease;
+  user-select: none;
+  text-align: center;
+}
+
+.button-item:hover {
+  background: #4a8a97;
+  box-shadow: 0 5px 12px rgba(74,138,151,0.8);
+}
+
+.stats-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #4a4a4a;
+}
+
+.stats-list li {
+  margin-bottom: 12px;
+  font-weight: 600;
+  font-size: 1.05rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.stats-list li span {
+  background: #e0f0f7;
+  padding: 4px 12px;
+  border-radius: 20px;
+  color: #31708f;
+  font-weight: 700;
+  min-width: 36px;
+  text-align: center;
+}
